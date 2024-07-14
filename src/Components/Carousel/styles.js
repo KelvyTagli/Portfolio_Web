@@ -5,12 +5,18 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
-    
-`
-export const Skills = styled.div `
-    > img {
+
+    .swiper {
+        display: flex;
+        text-align: center;
+
+        height: auto;
         width: 140px;
-        border-radius: 20%;
+    }
+
+    .IMG {
+        height: 140px;
+        width: 140px;
+        border-radius: 10%;
     }
 `
