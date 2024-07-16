@@ -8,18 +8,9 @@ export const Container = styled.header`
 
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    padding: 0 8rem;
-`
-
-export const Section = styled.nav`
-    width: 90%;
-    height: 5.5rem;
-
-    display: flex;
-    align-items: center;
     justify-content: space-around;
+    
+    padding: 1rem 3rem;
 `
 
 export const Logo = styled.div`
@@ -28,11 +19,9 @@ export const Logo = styled.div`
     display: flex;
     align-items: center;
 
-    gap: 2.9rem;
-
     > img {
-        width: 5.5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 5.5rem;
     }
 `
 
@@ -44,11 +33,10 @@ export const Navigation = styled.div`
     justify-content: space-around;
 
     > a {
-        color: ${({theme}) => theme.COLORS.GRAY_100};
+        color: ${({theme}) => theme.COLORS.WHITE};
 
         letter-spacing: 1px;
-        font-weight: 600;
 
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 `
