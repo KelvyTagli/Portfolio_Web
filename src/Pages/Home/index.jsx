@@ -15,8 +15,12 @@ export function Home() {
                 <Carousel/>
             </Body>
             <Links>
-                <GithubLogo size={36} weight="fill" className='github'/>
-                <LinkedinLogo size={36}  weight="fill" className='linkedin'/>
+                <a href="https://github.com/KelvyTagli" target='_blank' className='github'>
+                    <GithubLogo size={36} weight="fill"/>
+                </a>
+                <a href="https://www.linkedin.com/in/kelvy-tagliacolli/" className='linkedin' target='_blank'>
+                    <LinkedinLogo size={36}  weight="fill" />
+                </a>
             </Links>
         </Container>
     )

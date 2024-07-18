@@ -1,6 +1,6 @@
 import { Container,Logo, Navigation } from "./styles"
 import image from '../../assets/Group.svg'
-import { Link } from 'react-router-dom';
+
 export function Header(){
     return(
         <Container>
@@ -9,9 +9,9 @@ export function Header(){
             </Logo>
             <Navigation>
                 <a to='/'>home</a>
-                <a href="/Skills" onclick="route()">skills</a>
-                <a href="/Projects" onclick="route()">projects</a>
-                <a href="/Experiences" onclick="route()">experiences</a>
+                <a to='/About'>sobre</a>
+                <a to='/portfolio'>portfólio</a>
+                <a to='/servico'>serviços</a>
             </Navigation>
         </Container>
     )

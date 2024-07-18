@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-import { Link } from "react-router-dom";
-
 export const Container = styled.div`
+    height: 89vh;
+    
     display: flex;
     flex-direction: column;
-
+    
     padding: 0 2rem;
     gap: 3rem;
 `
@@ -45,16 +45,15 @@ export const Links = styled.footer`
     
     gap: 2rem;
 
-    > .github {
-        border: 2px solid ${({theme}) => theme.COLORS.GRAY_100};
-        border-radius: 50%;
-
-        padding: 0.2rem;
-
+    > a {
         color: ${({theme}) => theme.COLORS.GRAY_100};
     }
 
-    > .linkedin {
-        color: ${({theme}) => theme.COLORS.GRAY_100};
+    > .linkedin:hover {
+        color: #00A7FF;
+    }
+
+    > .github:hover {
+        color: #9800BE;
     }
 `
