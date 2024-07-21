@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    gap: 3rem;
+    gap: 5rem;
     padding: 3rem 0;
 `
 
@@ -32,13 +32,14 @@ export const About_ = styled.div `
     }
 
     > h1 {
-        font-size: 54px;
-        font-weight: 500;
+        font-size: 44px;
+        font-weight: bold;
     }
 
     > p {
         font-size: 14px;
         font-weight: 300;
+        
     }
 `
 
@@ -46,13 +47,23 @@ export const HardSkills = styled.div `
     width: 1032px;
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    gap: 4rem;
     > .skills {
         width: 212px;
         height: 98px;
 
-        border: 1px solid white;
+        text-align: center;
+
+        > h1 {
+            font-size: 26px;
+            margin-bottom: 1.5rem;
+
+            letter-spacing: 1.5px;
+
+            color: ${({theme}) => theme.COLORS.GRAY_100};
+        }
     }
 `
