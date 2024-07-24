@@ -10,6 +10,8 @@ export const Container = styled.div`
 
     gap: 5rem;
     padding: 3rem 0;
+    color: ${({theme}) => theme.COLORS.GRAY_100};
+    
 `
 
 export const About_ = styled.div `
@@ -32,14 +34,14 @@ export const About_ = styled.div `
     }
 
     > h1 {
-        font-size: 44px;
-        font-weight: bold;
-    }
+            font-size: 54px;
+            letter-spacing: 1px;
+            font-variant: small-caps;
+        }
 
     > p {
         font-size: 14px;
-        font-weight: 300;
-        
+        font-weight: 400;
     }
 `
 

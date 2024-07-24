@@ -7,14 +7,13 @@ import { Header } from './Components/Header'
 import theme from './styles/theme.js'
 
 import GlobalStyles from './styles/global.js'
-// import { Routes } from './Routes/index.jsx'
+import { Routes } from './Routes/index.jsx'
 
-import { About } from './Pages/About/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ThemeProvider theme={theme}>
     <GlobalStyles/>
     <Header/>
-    <About/>
+    <Routes/>
   </ThemeProvider>
 )

@@ -40,7 +40,7 @@ export function Carousel() {
                 {Skills.map((item) => (
                     <SwiperSlide key={item.ID}>
                         <img src={item.Image} alt="" className="IMG"/>
-                        <p>{item.language}</p>
+                        <p className="language">{item.language}</p>
                     </SwiperSlide>
                 ))}
             </Swiper>

@@ -19,4 +19,8 @@ export const Container = styled.div`
         width: 140px;
         border-radius: 10%;
     }
+
+    .language {
+        color: ${({theme}) => theme.COLORS.GRAY_DARK};
+    }
 `

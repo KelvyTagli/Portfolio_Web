@@ -33,10 +33,12 @@ export const Navigation = styled.div`
     justify-content: space-around;
 
     > a {
-        color: ${({theme}) => theme.COLORS.WHITE};
+        color: ${({theme}) => theme.COLORS.GRAY_100};
 
         letter-spacing: 1px;
 
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-variant: small-caps;
     }
 `

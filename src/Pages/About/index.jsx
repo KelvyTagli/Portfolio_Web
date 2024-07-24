@@ -11,7 +11,7 @@ export function About() {
                 <h1>Kelvy Tagliacolli</h1>
                 <p>Meu nome é Kelvy Tagliacolli, sou de São Paulo e sou formado em Análise e Desenvolvimento de Sistemas pela UNIP (Universidade Paulista).</p>
             </About_>
-                <h1>Hard Skills</h1>
+                <h1>HARD SKILLS</h1>
             <HardSkills>
                 <div className="skills">
                     <h1>C</h1>
