@@ -1,6 +1,6 @@
 export default {
     COLORS: {
-        BACKGROUND_100: "#FFFFFF",
+        BACKGROUND_100: "#FBFBFB",
 
         WHITE: "#f4ede8",
         ORANGE: "#FF9000",

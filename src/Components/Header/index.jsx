@@ -10,7 +10,7 @@ export function Header(){
             <Navigation>
                 <a href='/'>home</a>
                 <a href='/About'>sobre</a>
-                <a href='/portfolio'>portfólio</a>
+                <a href='/Portfolio'>portfólio</a>
                 <a href='/servico'>serviços</a>
             </Navigation>
         </Container>
