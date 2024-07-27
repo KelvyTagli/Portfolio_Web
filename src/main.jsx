@@ -11,9 +11,11 @@ import { Routes } from './Routes/index.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <ThemeProvider theme={theme}>
-    <GlobalStyles/>
-    <Header/>
-    <Routes/>
-  </ThemeProvider>
+  <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles/>
+        <Header/>
+        <Routes/>
+    </ThemeProvider>
+  </React.StrictMode>
 )
