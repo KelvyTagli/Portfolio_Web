@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div `
+export const Container = styled.a `
     width: 970px;
     height: 186px;
 
@@ -9,6 +9,8 @@ export const Container = styled.div `
 
     padding: 1.4rem;
     border-bottom: 1px solid ${({theme}) => theme.COLORS.GRAY_100};
+
+    color: ${({theme}) => theme.COLORS.GRAY_100};
 
     > img {
         width: 278px;

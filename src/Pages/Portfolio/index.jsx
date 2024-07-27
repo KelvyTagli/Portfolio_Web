@@ -10,6 +10,7 @@ export function Portfolio() {
                 <p>Este são alguns dos trabalhos e projetos que já realizei</p>
             </Title>
             <Card
+                href={"https://github.com/KelvyTagli/TypeWeather"}
                 cover={Cover}
                 title={"TypeWeather"}
                 year={2023}

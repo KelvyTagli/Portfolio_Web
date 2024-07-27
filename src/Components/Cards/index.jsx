@@ -1,8 +1,8 @@
 import { Container } from "./styles";
 
-export function Card({cover, title, year, description}) {
+export function Card({href, cover, title, year, description}) {
     return (
-        <Container>
+        <Container href={href} target='_blank'> 
             <img src={cover} alt="" />
             <div>
                 <h4 className="title">{title}</h4>
