@@ -7,9 +7,9 @@ import { Portfolio } from '../Pages/Portfolio';
 export function AppRoutes() {
     return (
         <Routes>
-            <Route path='/Portfolio_Web/' element={<Home />}/>
-            <Route path='/Portfolio_Web/About' element={<About/>}/>
-            <Route path='/Portfolio_Web/Portfolio' element={<Portfolio/>}/>
+            <Route path='Portfolio_Web' element={<Home />}/>
+            <Route path='Portfolio_Web/About' element={<About/>}/>
+            <Route path='Portfolio_Web/Portfolio' element={<Portfolio/>}/>
         </Routes>
     )
 }
