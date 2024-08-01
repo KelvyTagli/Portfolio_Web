@@ -8,10 +8,10 @@ export function Header(){
                 <img src={image} alt="image" />
             </Logo>
             <Navigation>
-                <a href="/Portfolio_Web">home</a>
-                <a href='/Portfolio_Web/About'>sobre</a>
-                <a href='/Portfolio_Web/Portfolio'>portfólio</a>
-                <a href='/Portfolio_Web/servico'>serviços</a>
+                <a href="/Portfolio_Web/">home</a>
+                <a href='#Sobre'>sobre</a>
+                <a href='#Portfolio'>portfólio</a>
+                <a href='#Contact'>contato</a>
             </Navigation>
         </Container>
     )

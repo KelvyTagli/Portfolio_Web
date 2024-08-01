@@ -1,13 +1,17 @@
-import { Container, About_, HardSkills} from "./styles"
-import javascript from '../../assets/JavaScript-logo.png'
+import { Container, About_, HardSkills, Body} from "./styles"
 
-import { Hexagon } from "phosphor-react"
+import { Hexagon, ArrowCircleUp } from "phosphor-react"
+import { Link } from "react-router-dom"
 
 export function About() {
     return (
-        <Container>
+        <Container id="Sobre">
+            <a href="/Portfolio_Web/">
+                <ArrowCircleUp size={36} color="#445964" weight="light" />
+            </a>
+            <Body>
             <About_>
-                <img src={javascript} alt="" />
+                <img src={"https://github.com/KelvyTagli.png"} alt="" />
                 <h1>Kelvy Tagliacolli</h1>
                 <p>Meu nome é Kelvy Tagliacolli, sou de São Paulo e sou formado em Análise e Desenvolvimento de Sistemas pela UNIP (Universidade Paulista).</p>
             </About_>
@@ -17,7 +21,7 @@ export function About() {
                     <h1>C</h1>
                     <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#445964" weight="regular" />
-                    <Hexagon size={36} color="#44596488" weight="thin" />
+                    <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                 </div>
@@ -49,7 +53,7 @@ export function About() {
                     <h1>Javascript</h1>
                     <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#445964" weight="regular" />
-                    <Hexagon size={36} color="#44596488" weight="thin" />
+                    <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                 </div>
@@ -57,11 +61,12 @@ export function About() {
                     <h1>React</h1>
                     <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#445964" weight="regular" />
-                    <Hexagon size={36} color="#44596488" weight="thin" />
+                    <Hexagon size={36} color="#445964" weight="regular" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                     <Hexagon size={36} color="#44596488" weight="thin" />
                 </div>
             </HardSkills>
+            </Body>
         </Container>
     )
 }

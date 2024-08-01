@@ -10,6 +10,8 @@ export const Container = styled.div `
     padding: 3rem 13rem;
 
     color: black;
+
+    margin-top: 7rem;
     
 `
 

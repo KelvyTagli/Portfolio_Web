@@ -1,16 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
-    
+    width: 100%; 
 
+    padding: 3rem 13rem;
+
+    margin-top: 7rem;
+    color: ${({theme}) => theme.COLORS.GRAY_100};
+`
+
+export const Body = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
 
     gap: 5rem;
     padding: 3rem 0;
-    color: ${({theme}) => theme.COLORS.GRAY_100};
     
 `
 
@@ -30,7 +35,7 @@ export const About_ = styled.div `
         border: 4px solid ${({theme}) => theme.COLORS.GRAY_100};
         border-radius: 20%;
 
-        padding: 1rem;
+        padding: .2rem;
     }
 
     > h1 {

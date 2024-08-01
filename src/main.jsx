@@ -7,15 +7,21 @@ import {Header}  from './Components/Header'
 import theme from './styles/theme.js'
 
 import GlobalStyles from './styles/global.js'
-import { Routes } from './Routes/index.jsx'
 
+import {Home} from '../src/Pages/Home'
+import {About} from '../src/Pages/About'
+import {Portfolio} from '../src/Pages/Portfolio'
+import { Contact } from './Pages/Contact/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <ThemeProvider theme={theme}>
         <GlobalStyles/>
         <Header/>
-        <Routes/>
+        <Home/>
+        <About/>
+        <Portfolio/>
+        <Contact/>
     </ThemeProvider>
   </React.StrictMode>
 )
